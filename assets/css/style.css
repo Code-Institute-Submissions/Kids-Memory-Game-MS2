@@ -20,10 +20,11 @@ h1 {
     font-family: Indie Flower, san-serif;
 }
 
-h2{
+h3, h2{
     font-size: 1.5rem;
-  
+    font-family: Indie Flower, san-serif
 }
+
 
 #img-background {
     background: url(../images/bee.png);
@@ -59,12 +60,18 @@ button {
  width: 50%;
  display: inline-block;
  text-align: left;
+ background-color: rgba(215 244 238 / 86%);
+ border-radius: 10px;
+ padding: 20px;
 }
 
 #did-you-know ul{
     list-style-type: none;
-}
 
+}
+ #did-you-know li{
+     padding: 20px;
+ }
 
 /* Game board styles */
 .memory-game{

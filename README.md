@@ -5,7 +5,7 @@ representative image
 
 
 # UX
-The inspiration for this game was my daughter. I wanted to make a game that would have a good impact an a child's brain. as a parent I know how hard it is to keep children away from the screen, but sometimes this is inevitable. So I wanted to make a game that would be useful and fun at the same time.
+The inspiration for this game was my daughter. I wanted to make a game that would have a good impact on a child's brain. As a parent I know how hard it is to keep children away from the screen, but sometimes this is inevitable. So I wanted to make a game that would be useful and fun at the same time.
 I did a little research on memory games and found out that playing memory games can improve other brain functions, such as attention, concentration, and focus. Memory games give space to critical thinking and that helps children nurture their attention to detail.  
 This project is intended for children from 2 -6 years.
 
@@ -26,14 +26,19 @@ As a playes:
 
 ## Features
 
-...
-
+- An simple and colofrul page structure so that the user can easily find the game
+- "Did you know" section - provides information about the importance of memory game and their impact on children’s memory
+- "How to play?" button - provides information about the game rules
+- "Play game" button - takes the user to the memory game board
+- Memory board - contains 12 cards, the user must find a par for each card
+- Number of moves and score - shows the user how many moves have been used for how long
+- "Reset" button - user can reset the game and play again
 
 #
 # Structure
 
-- **Header**  
-    ...
+- **Title**  
+    
 - **How to play**  
     ...
 
@@ -43,7 +48,6 @@ As a playes:
 -  **Did you know**  
     ...
 
- ows the user to contact the salon by form 
 
 
 # Wireframes

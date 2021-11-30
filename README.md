@@ -52,8 +52,23 @@ As a playes:
 
 # Wireframes
 
+## Desktop View
+<p align="center">
+<img src="assets/images/wireframes/memory-game-desktop.png" width="600" height="700">
+</p>
 
 
+# Tablet view
+<p align="center">
+<img src="assets/images/wireframes/memory-game-tablet.png" width="500" height="900">
+</p>
+
+
+
+# Mobile View
+<p align="center">
+<img src="assets/images/wireframes/memory-game-phone.png" width="300" height="1000">
+</p>
 
 
 

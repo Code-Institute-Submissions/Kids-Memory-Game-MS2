@@ -5,15 +5,21 @@ representative image
 
 
 # UX
-
-short description...
-
-
+The inspiration for this game was my daughter. I wanted to make a game that would have a good impact an a child's brain. as a parent I know how hard it is to keep children away from the screen, but sometimes this is inevitable. So I wanted to make a game that would be useful and fun at the same time.
+I did a little research on memory games and found out that playing memory games can improve other brain functions, such as attention, concentration, and focus. Memory games give space to critical thinking and that helps children nurture their attention to detail.  
+This project is intended for children from 2 -6 years.
 
 ## Users Stories 
-...
+As a parent:
+- I want to make sure the content is applicable to children
+- I want my child to easily understand the purpose of the game
+- I want my child to have fun while developing memory
 
-
+As a playes:
+- I want to have fun
+- I want to see nice and colorful game
+- I want to see nice pictures that will keep my atention 
+- I want to see my score and moves
 
 #
 # Scope 

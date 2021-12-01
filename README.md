@@ -26,7 +26,7 @@ As a playes:
 
 ## Features
 
-- An simple and colofrul page structure so that the user can easily find the game
+- An simple and colorful page structure so that the user can easily find the game
 - "Did you know" section - provides information about the importance of memory game and their impact on children’s memory
 - "How to play?" button - provides information about the game rules
 - "Play game" button - takes the user to the memory game board
@@ -76,7 +76,13 @@ As a playes:
 # Surface
 
 # Design 
-The design of this site is made in bright and cheerful colors, because they make the page cheerful and positive and the main goal of this page is fun and of course memory training. The site is intended for children from 2 to 6 years, so it must be simple and easy to use. 
+The design of this site is made in bright and cheerful colors, because they make the page cheerful and positive and the main goal of this page is fun and of course memory training. The site is intended for children from 2 to 6 years, so it's important that the site is colorful and easy to navigate and understand.
+
+It's one page site with two parts.
+First part is consist of the title, the short section "Did you know?", a button that opens the game rules and a "Play Game" button that takes the user to the memory game section.
+Second part is consist of the memory game section where the Memory Game board is located under which the user can see their time and number of moves they used along the way. The user can push the reset button to reset the game and start again. 
+When all the pairs are found the aler message will show up. 
+
 
 ## Chosens Color 
 
@@ -96,8 +102,6 @@ The design of this site is made in bright and cheerful colors, because they make
 
 ## Languages 
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks, Libraries & Programs Used
 
@@ -114,20 +118,10 @@ The design of this site is made in bright and cheerful colors, because they make
 - [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html) - was used to correct indentation issues and get rid of too much whitespace
 
 # Testing
-- Tested on Chrome, Opera, Microsoft Edge and Firefox desktop version browsers
-- Chrome Developer Tools are used to test the responsiveness on: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6,7,8, iPhone 6,7,8 Plus, iPad, iPad Pro, Galaxy Fold
+
 
 # Validating 
-The W3C Markup Validator and W3C CSS Validator Services were used to check my code for syntax errors in this project.
 
-- [HTML](https://validator.w3.org/#validate_by_input)- I checked each page by direct input method on HTML validator site
-
-
-
-- [CSS](https://jigsaw.w3.org/css-validator/)
-
-
-- I used Lighthouse tools to test my website
 
 
 ## User Story Testing
@@ -173,21 +167,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 
 ## GitHub Pages
-1. Log into GitHub and locate the repository.
-2. At the top locate the settings option 
-3. Scroll towards  the bottom of the page and locate GitHub Pages 
-4. Click on the link "Check it out here!"
-4. Under 'Source' dropdown, click 'Master' from the options.
-5. Click the save button.
-6. The site is now published, it may not be available immediately. 
-7. The site URL is visible on the green bar under the "Github Pages".
+
 
 ## Github Clone 
 
-1. First you need to install the GitPod Browser Extension.
-2. Log into GitHub and locate the repository.
-3. Click the green "Gitpod" button just below the Settings.
-4. Now you created a new Gitpod workspace from the code in Github
+
 
 
 # Credits

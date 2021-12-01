@@ -75,8 +75,8 @@ As a playes:
 
 # Surface
 
-## Design 
-...
+# Design 
+The design of this site is made in bright and cheerful colors, because they make the page cheerful and positive and the main goal of this page is fun and of course memory training. The site is intended for children from 2 to 6 years, so it must be simple and easy to use. 
 
 ## Chosens Color 
 

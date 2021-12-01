@@ -150,7 +150,7 @@ box-sizing: border-box;
 
 .frog {
     background-image: url(../images/frog.png);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -162,6 +162,9 @@ box-sizing: border-box;
     background-size: cover;
 }
 
+.color-hidden{
+    background-color: gray;
+}
 
 /* Reset button and number of moves*/
 

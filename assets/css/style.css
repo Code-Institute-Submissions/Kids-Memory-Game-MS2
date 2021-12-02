@@ -97,12 +97,21 @@ button {
     cursor: pointer;
     border: 1px solid blue;
     margin: 5px;
+    transform: scale(1);
 }
 
 .cards:hover{
 box-shadow: inset 0px 0px 2px blue;
 box-sizing: border-box;
 }
+.cards:active{
+    transform: scale(.97);
+    transition: transform .2s;
+}
+
+
+
+
 
 .duck {
     background-image: url(../images/duck.png);
@@ -163,8 +172,11 @@ box-sizing: border-box;
 }
 
 .color-hidden{
-    background-color: gray;
+    background-image: url(../images/elephant.png);
 }
+
+
+
 
 /* Reset button and number of moves*/
 

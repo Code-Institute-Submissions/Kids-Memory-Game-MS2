@@ -19,7 +19,7 @@ As a playes:
 - I want to have fun
 - I want to see nice and colorful game
 - I want to see nice pictures that will keep my atention 
-- I want to see my score and moves
+- I want to see my time and moves
 
 #
 # Scope 

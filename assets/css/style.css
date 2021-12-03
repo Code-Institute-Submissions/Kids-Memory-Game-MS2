@@ -90,7 +90,6 @@ button {
     display: inline-block;
     width: 150px;
     height: 150px;
-    background: url(../images/elephant.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,6 +97,9 @@ button {
     border: 1px solid blue;
     margin: 5px;
     transform: scale(1);
+    padding: 15px;
+    background-origin: content-box;
+  
 }
 
 .cards:hover{
@@ -118,10 +120,11 @@ box-sizing: border-box;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 
-.elephant {
-    background-image: url(../images/elephant.png);
+.giraffe {
+    background-image: url(../images/giraffe.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

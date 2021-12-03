@@ -90,17 +90,12 @@ button {
     display: inline-block;
     width: 150px;
     height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     cursor: pointer;
     border: 1px solid blue;
     margin: 5px;
     transform: scale(1);
     padding: 15px;
     background-origin: content-box;
-    
-  
 }
 
 .cards:hover{

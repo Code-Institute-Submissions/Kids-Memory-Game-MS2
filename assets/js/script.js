@@ -1,12 +1,45 @@
 const cards = document.querySelectorAll('.cards');
+const randomNum = [...document.querySelectorAll('.random')];
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
 let secondCard;
 
 
+const animals = [
+    'duck',
+    'dolphin',
+    'frog',
+    'giraffe',
+    'hippo',
+    'owl',
+    'seal',
+    'turtle',
+  ];
+  
+  
+for (let animal of animals) {
+  const cardAIndex = parseInt(Math.random() * randomNum.length);
+  const cardA = randomNum[cardAIndex];
+  randomNum.splice(cardAIndex, 1);
+  cardA.className += ` ${animal}`;
+  cardA.setAttribute('data-img', animal);
+
+  const cardBIndex = parseInt(Math.random() * randomNum.length);
+  const cardB = randomNum[cardBIndex];
+  randomNum.splice(cardBIndex, 1);
+  cardB.className += ` ${animal}`;
+  cardB.setAttribute('data-img', animal);
+
+
+}
+
+
+
 function flipCard(){
    if (lockBoard) return;
+
+   if(this === firstCard) return;
 
    this.classList.remove('color-hidden');
 
@@ -53,8 +86,15 @@ lockBoard = true;
     }, 1500); 
 }
 
+function resetBoard(){
+ [hasFlippedCard, lockBoard] = [false, false];
+ [firstCard, secondCard] = [null, null];
+}
+
 
 cards.forEach (card => card.addEventListener('click', flipCard));
+
+
 
 
 

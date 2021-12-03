@@ -99,6 +99,7 @@ button {
     transform: scale(1);
     padding: 15px;
     background-origin: content-box;
+    
   
 }
 
@@ -110,7 +111,6 @@ box-sizing: border-box;
     transform: scale(.97);
     transition: transform .2s;
 }
-
 
 
 

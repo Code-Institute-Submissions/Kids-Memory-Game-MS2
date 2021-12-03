@@ -1,5 +1,8 @@
 const cards = document.querySelectorAll('.cards');
 const randomNum = [...document.querySelectorAll('.random')];
+const reset = document.getElementById('reset');
+let moves = 0;
+let counter = document.querySelector(".moves");
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
@@ -18,6 +21,7 @@ const animals = [
   ];
   
   
+
 for (let animal of animals) {
   const cardAIndex = parseInt(Math.random() * randomNum.length);
   const cardA = randomNum[cardAIndex];
@@ -30,7 +34,6 @@ for (let animal of animals) {
   randomNum.splice(cardBIndex, 1);
   cardB.className += ` ${animal}`;
   cardB.setAttribute('data-img', animal);
-
 
 }
 
@@ -50,7 +53,7 @@ function flipCard(){
        hasFlippedCard = false;
        secondCard = this;
 
-   
+moveCounter()
 matchingCards();
     
    }
@@ -95,9 +98,18 @@ function resetBoard(){
 cards.forEach (card => card.addEventListener('click', flipCard));
 
 
-
-
-
+// RESET BUTTON
   
-    
+/*reset.addEventListener('click', resetGame);
+
+function resetGame(){
+
+}
+*/
+
+function moveCounter(){    
+    moves++;    
+    counter.innerHTML = moves;
+}
+
 

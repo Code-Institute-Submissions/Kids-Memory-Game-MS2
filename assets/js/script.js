@@ -7,7 +7,7 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
 let secondCard;
-
+document.body.onload = startGame();
 
 const animals = [
     'duck',
@@ -21,6 +21,8 @@ const animals = [
   ];
   
   
+// SHUFFLE CARDS
+
 
 for (let animal of animals) {
   const cardAIndex = parseInt(Math.random() * randomNum.length);
@@ -38,7 +40,6 @@ for (let animal of animals) {
 }
 
 
-
 function flipCard(){
    if (lockBoard) return;
 
@@ -53,8 +54,9 @@ function flipCard(){
        hasFlippedCard = false;
        secondCard = this;
 
-moveCounter()
+
 matchingCards();
+moveCounter()
     
    }
 
@@ -98,18 +100,54 @@ function resetBoard(){
 cards.forEach (card => card.addEventListener('click', flipCard));
 
 
-// RESET BUTTON
-  
-/*reset.addEventListener('click', resetGame);
-
-function resetGame(){
-
-}
-*/
+  // MOVES COUNT
 
 function moveCounter(){    
     moves++;    
     counter.innerHTML = moves;
+
+    if(moves === 1){
+        second = 0;
+        minute = 0;
+        hour = 0;
+startTimer();
+        
+    }
 }
 
+// TIMER
+var second = 0, minute = 0; hour = 0;
+var timer = document.querySelector(".timer");
+var interval;
 
+function startTimer(){
+    interval = setInterval(function(){
+        timer.innerHTML = minute + " mins "+ second + " secs";
+        second++; 
+        if(second == 60){
+            minute++;
+            second = 0;
+        }
+        if(minute == 60){
+            hour++;
+            minute = 0;
+        }
+    },1000);
+}
+
+// START GAME
+
+function startGame(){
+
+    // reset moves
+    moves = 0;
+    counter.innerHTML = moves;
+    
+    //reset timer
+    second = 0;
+    minute = 0; 
+    hour = 0;
+    var timer = document.querySelector(".timer");
+    timer.innerHTML = "0 mins 0 secs";
+    clearInterval(interval);
+    }

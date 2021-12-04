@@ -178,12 +178,14 @@ box-sizing: border-box;
 
 /* Reset button and number of moves*/
 
- p {
+ p, .timer {
     text-align: center;
     font-size: 1.3rem;
     margin-top: 2%;
     
 }
+
+
 
 
 .reset {

@@ -7,7 +7,10 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
 let secondCard;
+
 document.body.onload = startGame();
+
+console.log(reset);
 
 const animals = [
     'duck',
@@ -151,3 +154,11 @@ function startGame(){
     timer.innerHTML = "0 mins 0 secs";
     clearInterval(interval);
     }
+
+    //RESET
+
+   reset.addEventListener('click', resetGame);
+
+   function resetGame(){
+       startGame();
+   }

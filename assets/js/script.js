@@ -1,5 +1,5 @@
 //const card = document.querySelectorAll('.card');
-const randomNum = [...document.querySelectorAll('.random')];
+let randomNum = null;
 const reset = document.getElementById('reset');
 let moves = 0;
 let counter = document.querySelector(".moves");
@@ -8,7 +8,11 @@ let lockBoard = false;
 let firstCard;
 let secondCard;
 
-document.body.onload = startGame();
+document.body.onload = function(){
+    
+    
+    startGame();
+} 
 
 
 let card = document.getElementsByClassName("card");
@@ -30,21 +34,32 @@ for (var i = 0; i < cards.length; i++){
         'seal',
         'turtle',
       ];
-for (let animal of animals) {
-    const cardAIndex = parseInt(Math.random() * randomNum.length);
-  const cardA = randomNum[cardAIndex];
-  randomNum.splice(cardAIndex, 1);
-    cardA.className += ` ${animal}`;
-    cardA.setAttribute('data-img', animal);
 
-    const cardBIndex = parseInt(Math.random() * randomNum.length);
-    const cardB = randomNum[cardBIndex];
-        randomNum.splice(cardBIndex, 1);
-    cardB.className += ` ${animal}`;
-    cardB.setAttribute('data-img', animal);
+      function shuffleAnimals() {
+    
+        for (let animal of animals) {
+            const cardAIndex = parseInt(Math.random() * randomNum.length);
+            const cardA = randomNum[cardAIndex];
+            randomNum.splice(cardAIndex, 1);
+    
+            if(cardA.getAttribute('data-img')?.length>0)
+                cardA.classList.remove(cardA.getAttribute('data-img'));
+            cardA.classList.add(animal);
+            cardA.setAttribute('data-img', animal);
+    
+            const cardBIndex = parseInt(Math.random() * randomNum.length);
+            const cardB = randomNum[cardBIndex];
+            randomNum.splice(cardBIndex, 1);
+    
+            if(cardB.getAttribute('data-img')?.length>0)
+                cardB.classList.remove(cardB.getAttribute('data-img'));
+            cardB.classList.add(animal);
+    
+            cardB.setAttribute('data-img', animal);
     
     
-  }
+        }
+    }
  
 
 
@@ -155,25 +170,29 @@ function startTimer(){
 
 // START GAME
 
-function startGame(){
+function startGame() {
+
+    randomNum = [...document.querySelectorAll('.random')];
+
+    for (var i = 0; i < cards.length; i++) {
+        cards[i].classList.add('color-hidden');
+
+        cards[i].removeEventListener('click', flipCard);
+        cards[i].addEventListener('click', flipCard);
+    };
+    firstCard = null;
 
     // reset moves
     moves = 0;
     counter.innerHTML = moves;
-    
+
     //reset timer
     second = 0;
-    minute = 0; 
+    minute = 0;
     hour = 0;
     var timer = document.querySelector(".timer");
     timer.innerHTML = "0 mins 0 secs";
     clearInterval(interval);
-    }
-
     
-
-
- 
- 
-
-
+    shuffleAnimals();
+}

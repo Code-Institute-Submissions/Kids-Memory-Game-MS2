@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll('.cards');
+//const card = document.querySelectorAll('.card');
 const randomNum = [...document.querySelectorAll('.random')];
 const reset = document.getElementById('reset');
 let moves = 0;
@@ -10,39 +10,47 @@ let secondCard;
 
 document.body.onload = startGame();
 
-console.log(reset);
 
-const animals = [
-    'duck',
-    'dolphin',
-    'frog',
-    'giraffe',
-    'hippo',
-    'owl',
-    'seal',
-    'turtle',
-  ];
-  
-  
-// SHUFFLE CARDS
+let card = document.getElementsByClassName("card");
+let cards = [...card];
+
+// loop to add event listeners to each card
+for (var i = 0; i < cards.length; i++){
+   cards[i].addEventListener("click", flipCard);
+};
 
 
+    const animals = [
+        'duck',
+        'dolphin',
+        'frog',
+        'giraffe',
+        'hippo',
+        'owl',
+        'seal',
+        'turtle',
+      ];
 for (let animal of animals) {
-  const cardAIndex = parseInt(Math.random() * randomNum.length);
+    const cardAIndex = parseInt(Math.random() * randomNum.length);
   const cardA = randomNum[cardAIndex];
   randomNum.splice(cardAIndex, 1);
-  cardA.className += ` ${animal}`;
-  cardA.setAttribute('data-img', animal);
+    cardA.className += ` ${animal}`;
+    cardA.setAttribute('data-img', animal);
 
-  const cardBIndex = parseInt(Math.random() * randomNum.length);
-  const cardB = randomNum[cardBIndex];
-  randomNum.splice(cardBIndex, 1);
-  cardB.className += ` ${animal}`;
-  cardB.setAttribute('data-img', animal);
+    const cardBIndex = parseInt(Math.random() * randomNum.length);
+    const cardB = randomNum[cardBIndex];
+        randomNum.splice(cardBIndex, 1);
+    cardB.className += ` ${animal}`;
+    cardB.setAttribute('data-img', animal);
+    
+    
+  }
+ 
 
-}
 
 
+
+// FLIP CARD FUNCTION
 function flipCard(){
    if (lockBoard) return;
 
@@ -65,6 +73,8 @@ moveCounter()
 
 }
 
+
+//MATCHING CARDS
 function matchingCards(){
 
     if (firstCard.dataset.img === secondCard.dataset.img){
@@ -77,13 +87,15 @@ function matchingCards(){
 
 }
 
+
+// DISABLE CARDS
 function disableCards(){
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
 
     }
 
-
+// UNFLIP CARDS
 function unflipCards(){
 lockBoard = true;
 
@@ -94,13 +106,14 @@ lockBoard = true;
     }, 1500); 
 }
 
+//RESET BOARD
 function resetBoard(){
  [hasFlippedCard, lockBoard] = [false, false];
  [firstCard, secondCard] = [null, null];
 }
 
 
-cards.forEach (card => card.addEventListener('click', flipCard));
+//card.forEach (cards => cards.addEventListener('click', flipCard));
 
 
   // MOVES COUNT
@@ -138,6 +151,8 @@ function startTimer(){
     },1000);
 }
 
+
+
 // START GAME
 
 function startGame(){
@@ -155,10 +170,10 @@ function startGame(){
     clearInterval(interval);
     }
 
-    //RESET
+    
 
-   reset.addEventListener('click', resetGame);
 
-   function resetGame(){
-       startGame();
-   }
+ 
+ 
+
+

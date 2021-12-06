@@ -8,6 +8,7 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
 let secondCard;
+matchCounter = 0;
 
 const animals = [
     'duck',
@@ -18,6 +19,7 @@ const animals = [
     'owl',
     'seal',
     'turtle',
+    
   ];
 
 
@@ -31,6 +33,7 @@ document.body.onload = function(){
 // loop to add event listeners to each card
 for (var i = 0; i < cards.length; i++){
    cards[i].addEventListener("click", flipCard);
+   
 };
 
 
@@ -82,25 +85,31 @@ function flipCard(){
 
 
 matchingCards();
-moveCounter()
-    
+congratulations();
    }
 
 }
+
+
 
 
 //MATCHING CARDS
 function matchingCards(){
 
     if (firstCard.dataset.img === secondCard.dataset.img){
-
+       
+        
         disableCards();
+    
     } else {
 
             unflipCards();
     }
-
+   
 }
+
+
+
 
 
 // DISABLE CARDS
@@ -125,10 +134,11 @@ lockBoard = true;
 function resetBoard(){
  [hasFlippedCard, lockBoard] = [false, false];
  [firstCard, secondCard] = [null, null];
+
+
 }
 
 
-//card.forEach (cards => cards.addEventListener('click', flipCard));
 
 
   // MOVES COUNT
@@ -205,4 +215,42 @@ document.getElementById('btnOne').addEventListener('click', showhide);
 
 function showhide() {
   div.classList.toggle('visible');
+}
+
+// CONGRATULATION 
+
+//modal
+let modal = document.getElementById("popup1")
+//stars list
+//close icon in modal
+ let closeicon = document.querySelector(".close");
+//congratulations when all cards match, show modal and moves, time 
+
+
+ function congratulations(){
+
+    matchCounter+=1;
+    if (matchCounter==(cards.length/2)){
+        clearInterval(interval);
+        finalTime = timer.innerHTML;
+    //show congratulations modal
+    modal.classList.add("show");
+    //showing move, rating, time on modal
+    document.getElementById("finalMove").innerHTML = moves;
+    document.getElementById("totalTime").innerHTML = finalTime;
+    //closeicon on modal
+    closeModal();
+    };
+}
+
+function closeModal(){
+    closeicon.addEventListener("click", function(e){
+        modal.classList.remove("show");
+        startGame();
+    });
+}
+//for player to play Again 
+function playAgain(){
+    modal.classList.remove("show");
+    startGame();
 }

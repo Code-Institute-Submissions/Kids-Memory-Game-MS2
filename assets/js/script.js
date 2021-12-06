@@ -1,4 +1,5 @@
-//const card = document.querySelectorAll('.card');
+let card = document.getElementsByClassName("card");
+let cards = [...card];
 let randomNum = null;
 const reset = document.getElementById('reset');
 let moves = 0;
@@ -8,15 +9,24 @@ let lockBoard = false;
 let firstCard;
 let secondCard;
 
+const animals = [
+    'duck',
+    'dolphin',
+    'frog',
+    'giraffe',
+    'hippo',
+    'owl',
+    'seal',
+    'turtle',
+  ];
+
+
 document.body.onload = function(){
-    
     
     startGame();
 } 
 
 
-let card = document.getElementsByClassName("card");
-let cards = [...card];
 
 // loop to add event listeners to each card
 for (var i = 0; i < cards.length; i++){
@@ -24,38 +34,28 @@ for (var i = 0; i < cards.length; i++){
 };
 
 
-    const animals = [
-        'duck',
-        'dolphin',
-        'frog',
-        'giraffe',
-        'hippo',
-        'owl',
-        'seal',
-        'turtle',
-      ];
-
-      function shuffleAnimals() {
+// FUNCTION SHUFFLE
+  function shuffleAnimals() {
     
-        for (let animal of animals) {
-            const cardAIndex = parseInt(Math.random() * randomNum.length);
-            const cardA = randomNum[cardAIndex];
-            randomNum.splice(cardAIndex, 1);
+    for (let animal of animals) {
+        const cardAIndex = parseInt(Math.random() * randomNum.length);
+        const cardA = randomNum[cardAIndex];
+        randomNum.splice(cardAIndex, 1);
     
-            if(cardA.getAttribute('data-img')?.length>0)
+        if(cardA.getAttribute('data-img')?.length>0)
                 cardA.classList.remove(cardA.getAttribute('data-img'));
-            cardA.classList.add(animal);
-            cardA.setAttribute('data-img', animal);
+         cardA.classList.add(animal);
+        cardA.setAttribute('data-img', animal);
     
-            const cardBIndex = parseInt(Math.random() * randomNum.length);
-            const cardB = randomNum[cardBIndex];
-            randomNum.splice(cardBIndex, 1);
+        const cardBIndex = parseInt(Math.random() * randomNum.length);
+        const cardB = randomNum[cardBIndex];
+        randomNum.splice(cardBIndex, 1);
     
-            if(cardB.getAttribute('data-img')?.length>0)
+        if(cardB.getAttribute('data-img')?.length>0)
                 cardB.classList.remove(cardB.getAttribute('data-img'));
-            cardB.classList.add(animal);
+        cardB.classList.add(animal);
     
-            cardB.setAttribute('data-img', animal);
+        cardB.setAttribute('data-img', animal);
     
     
         }
@@ -195,4 +195,14 @@ function startGame() {
     clearInterval(interval);
     
     shuffleAnimals();
+}
+
+// HOW TO PLAY BTN
+
+var div = document.getElementById('newpost');
+
+document.getElementById('btnOne').addEventListener('click', showhide);
+
+function showhide() {
+  div.classList.toggle('visible');
 }

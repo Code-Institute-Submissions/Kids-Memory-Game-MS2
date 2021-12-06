@@ -38,7 +38,26 @@ h3, h2{
   
 }
 
+#newpost {
+    display: none;
+  }
+  
+  #newpost.visible {
+    display: block;
+  }
 
+  .newpost-text {
+    width: 50%;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(215 244 238 / 90%);
+    border-radius: 10px;
+    border-radius: 10;
+    padding: 20;
+
+  }
 
 button {
     width: 250px;
@@ -49,6 +68,8 @@ button {
 
 .button-section {
     text-align: center;
+    width: 100%;
+    
 }
 
 .padding-button{

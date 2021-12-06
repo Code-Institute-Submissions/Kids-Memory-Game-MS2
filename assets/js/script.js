@@ -23,10 +23,8 @@ const animals = [
   ];
 
 
-document.body.onload = function(){
-    
-    startGame();
-} 
+window.onload = startGame();
+
 
 
 
@@ -83,7 +81,7 @@ function flipCard(){
        hasFlippedCard = false;
        secondCard = this;
 
-
+moveCounter();
 matchingCards();
 congratulations();
    }
@@ -157,7 +155,7 @@ startTimer();
 }
 
 // TIMER
-var second = 0, minute = 0; hour = 0;
+var second = 0, minute = 0; 
 var timer = document.querySelector(".timer");
 var interval;
 

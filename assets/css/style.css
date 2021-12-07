@@ -29,12 +29,13 @@ h3, h2{
 
 
 #img-background {
-    background: url(../images/bee.png);
+    background: url(../images/newphoto.jpg);
     background-position: center;
     background-size:cover ;
     background-repeat: no-repeat;
     width: 100%;
     float: left;
+    height: 150vh;
   
 }
 
@@ -132,8 +133,8 @@ box-sizing: border-box;
 
 
 
-.duck {
-    background-image: url(../images/duck.png);
+.cheetah {
+    background-image: url(../images/cheetah.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,45 +148,45 @@ box-sizing: border-box;
     background-size: cover;
 }
 
-.hippo {
-    background-image: url(../images/hippo.png);
+.deer {
+    background-image: url(../images/deer.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.owl {
-    background-image: url(../images/owl.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.seal {
-    background-image: url(../images/seal.png);
+.flamingo {
+    background-image: url(../images/flamingo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-.turtle {
-    background-image: url(../images/turtle.png);
+.lion {
+    background-image: url(../images/lion.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.frog {
-    background-image: url(../images/frog.png);
+
+.monkey{
+    background-image: url(../images/monkey.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiger {
+    background-image: url(../images/tiger.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.dolphin {
-    background-image: url(../images/dolphin.png);
+.zebra {
+    background-image: url(../images/zebra.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,6 +194,10 @@ box-sizing: border-box;
 
 .color-hidden{
     background-image: url(../images/elephant.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 

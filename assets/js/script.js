@@ -11,14 +11,14 @@ let secondCard;
 matchCounter = 0;
 
 const animals = [
-    'duck',
-    'dolphin',
-    'frog',
+    'cheetah',
+    'deer',
+    'flamingo',
     'giraffe',
-    'hippo',
-    'owl',
-    'seal',
-    'turtle',
+    'lion',
+    'monkey',
+    'tiger',
+    'zebra',
     
   ];
 

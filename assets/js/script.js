@@ -31,7 +31,6 @@ window.onload = startGame();
 // loop to add event listeners to each card
 for (var i = 0; i < cards.length; i++){
    cards[i].addEventListener("click", flipCard);
-   
 };
 
 
@@ -83,7 +82,7 @@ function flipCard(){
 
 moveCounter();
 matchingCards();
-congratulations();
+
    }
 
 }
@@ -96,13 +95,21 @@ function matchingCards(){
 
     if (firstCard.dataset.img === secondCard.dataset.img){
        
-        
+        matchCounter+=1;
         disableCards();
+        if(matchCounter==(cards.length/2)){
+            clearInterval(interval);
+        finalTime = timer.innerHTML;
+    //show congratulations modal
+    modal.classList.add("show");
+    //showing move, rating, time on modal
+    document.getElementById("finalMove").innerHTML = moves;
+    document.getElementById("totalTime").innerHTML = finalTime;
+    //closeicon on modal
+    closeModal();
+    };
     
-    } else {
-
-            unflipCards();
-    }
+    } else {   unflipCards(); }
    
 }
 
@@ -225,21 +232,6 @@ let modal = document.getElementById("popup1")
 //congratulations when all cards match, show modal and moves, time 
 
 
- function congratulations(){
-
-    matchCounter+=1;
-    if (matchCounter==(cards.length/2)){
-        clearInterval(interval);
-        finalTime = timer.innerHTML;
-    //show congratulations modal
-    modal.classList.add("show");
-    //showing move, rating, time on modal
-    document.getElementById("finalMove").innerHTML = moves;
-    document.getElementById("totalTime").innerHTML = finalTime;
-    //closeicon on modal
-    closeModal();
-    };
-}
 
 function closeModal(){
     closeicon.addEventListener("click", function(e){

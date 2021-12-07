@@ -9,7 +9,7 @@
 }
 
 body {
-   
+   background-color: hsl(34deg 88% 56% / 83%);
     font-family:Maven Pro, sans-serif;
 }
 
@@ -116,8 +116,6 @@ button {
     border: 1px solid blue;
     margin: 5px;
     transform: scale(1);
-    padding: 15px;
-    background-origin: content-box;
 }
 
 
@@ -133,71 +131,71 @@ box-sizing: border-box;
 
 
 
-.cheetah {
-    background-image: url(../images/cheetah.png);
+.snail {
+    background-image: url(../images/snail.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
    
 }
 
-.giraffe {
-    background-image: url(../images/giraffe.png);
+.fox {
+    background-image: url(../images/fox.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.deer {
-    background-image: url(../images/deer.jpg);
+.lionnew {
+    background-image: url(../images/lionnew.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.flamingo {
-    background-image: url(../images/flamingo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.lion {
-    background-image: url(../images/lion.png);
+.bee {
+    background-image: url(../images/bee.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-.monkey{
-    background-image: url(../images/monkey.jpg);
+.bird {
+    background-image: url(../images/bird.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.tiger {
-    background-image: url(../images/tiger.png);
+
+.dinosaur{
+    background-image: url(../images/dinosaur.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dog{
+    background-image: url(../images/dog.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.zebra {
-    background-image: url(../images/zebra.png);
+.sheep {
+    background-image: url(../images/sheep.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 
 .color-hidden{
-    background-image: url(../images/elephant.png);
+    background-image: url(../images/bear.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 

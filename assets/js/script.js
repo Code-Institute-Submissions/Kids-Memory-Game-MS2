@@ -11,14 +11,14 @@ let secondCard;
 matchCounter = 0;
 
 const animals = [
-    'cheetah',
-    'deer',
-    'flamingo',
-    'giraffe',
-    'lion',
-    'monkey',
-    'tiger',
-    'zebra',
+    'snail',
+    'bee',
+    'dinosaur',
+    'dog',
+    'fox',
+    'lionnew',
+    'sheep',
+    'bird',
     
   ];
 
@@ -212,6 +212,7 @@ function startGame() {
     shuffleAnimals();
 }
 
+
 // HOW TO PLAY BTN
 
 var div = document.getElementById('newpost');
@@ -221,6 +222,8 @@ document.getElementById('btnOne').addEventListener('click', showhide);
 function showhide() {
   div.classList.toggle('visible');
 }
+
+
 
 // CONGRATULATION 
 

@@ -9,35 +9,62 @@
 }
 
 body {
-   background-color: hsl(34deg 88% 56% / 83%);
+   background-color: hsl(103deg 86% 72% / 71%);
     font-family:Maven Pro, sans-serif;
 }
 
-h1 {
+
+.text-header {
+   margin: auto;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: Indie Flower, san-serif;
-    margin-top: 1%;
+   padding-top: 1%;
+   color: #47525c;
+    font-weight: bold;
+    letter-spacing: 5px;
 }
 
-
-
-h3, h2{
-    font-size: 1.5rem;
-    font-family: Indie Flower, san-serif;
-}
-
-
-#img-background {
-    background: url(../images/newphoto.jpg);
+.img-background {
+    background-image: url(../images/newphoto2.jpg);
+    background-size: cover;
     background-position: center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    width: 100%;
-    float: left;
-    height: 150vh;
-  
+    height: 100vh;
+    text-align: center;
 }
+
+/*----------------Header, play & contact button - wraper to push a little down from the top---*/
+
+.wraper {
+    padding: 11px;
+}
+
+/*----------------Play & Contact Button---*/
+
+#play-button {
+    position: relative;
+    background-color: #fee73bde;
+    color: #ff4f98;
+    border-radius: 10px;
+    padding: 5px 10px;
+   
+}
+
+
+.text-style {
+    font-size: 1.2rem;
+    font-family: Indie Flower, san-serif;
+    margin:1%;
+}
+
+#btnOne{
+    position: relative;
+    background-color: #fee73bde;
+    color: #2daaf3;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
 
 #newpost {
     display: none;
@@ -60,28 +87,14 @@ h3, h2{
 
   }
 
-button {
-    width: 250px;
-    padding: 5px;
-    border: 2px solid #3a3a3a;
-    margin-top: 5%;
-}
 
-.button-section {
-    text-align: center;
-    width: 100%;
-    
-}
 
-.padding-button{
-    padding-bottom: 5%;
 
-}
 
 #did-you-know{
     width: 100%;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 20px;
    
 }
 

@@ -135,15 +135,19 @@ body {
   }
 
 
-  /*.newpost-text {
-    width: 40%;
-    display: inline-block;
-    font-size: 1.2rem;
-    padding: 20px;
-    text-align: center;
-    background-color:  #60b8eb;
-  } */
+/* DID YOU KNOW SECTION */
 
+#myBtn {
+    cursor: pointer;
+    color: blue;
+    
+
+}
+
+#more {
+    display: inline-block;
+    
+}
 
 
 
@@ -155,14 +159,15 @@ body {
    
 }
 
-#did-you-know div{
- width: 50%;
+#wrapper{
  display: inline-block;
  text-align: left;
  background-color: rgba(215 244 238 / 90%);
  border-radius: 10px;
  padding: 20px;
 }
+
+
 
 #did-you-know ul{
     list-style-type: none;
@@ -489,3 +494,11 @@ textarea:focus{
 }
 
 
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 900px) {
+    #wrapper {
+        width: 50%;
+    
+    }
+}

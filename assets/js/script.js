@@ -13,9 +13,32 @@ const modalBtn = document.getElementById("modalBtn");
 const closeBtn = document.getElementById("closeBtn");
 
 
+const know = document.getElementById('wrapper');
  
 modalBtn.addEventListener('click', showInstructions); // listen for open click of how to play instructions modal
 closeBtn.addEventListener('click', closeInstructions); // listen for close instructions button
+
+function didYouKnow(){
+
+    var x = window.matchMedia("(max-width: 900px)") // MEDIA QUERY
+    var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (more.style.display === "none") {
+    btnText.innerHTML = "Show Less"; 
+    moreText.style.display = "inline-block";
+    know.style.width = "50%";
+    if (x.matches) { // If media query matches
+        know.style.width = "100%";
+      }
+      
+  } else {
+    btnText.innerHTML = "Show More"; 
+    moreText.style.display = "none";
+    know.style.width = "fit-content";
+  }
+}
+
 
 
 function showInstructions() {

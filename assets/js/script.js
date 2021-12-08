@@ -9,6 +9,22 @@ let lockBoard = false;
 let firstCard;
 let secondCard;
 let matchCounter = 0;
+const modalBtn = document.getElementById("modalBtn");
+const closeBtn = document.getElementById("closeBtn");
+
+
+ 
+modalBtn.addEventListener('click', showInstructions); // listen for open click of how to play instructions modal
+closeBtn.addEventListener('click', closeInstructions); // listen for close instructions button
+
+
+function showInstructions() {
+    instructions.style.display = "block";
+}
+
+function closeInstructions() {
+    instructions.style.display = "none";
+}
 
 const animals = [
     'snail',
@@ -215,13 +231,13 @@ function startGame() {
 
 // HOW TO PLAY BTN
 
-var div = document.getElementById('newpost');
+/*var div = document.getElementById('newpost');
 
 document.getElementById('btnOne').addEventListener('click', showhide);
 
 function showhide() {
   div.classList.toggle('visible');
-}
+} */
 
 
 

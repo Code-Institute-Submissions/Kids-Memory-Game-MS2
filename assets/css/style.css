@@ -171,8 +171,6 @@ box-sizing: border-box;
 
 .snail {
     background-image: url(../images/snail.jpg);
-    
-   
 }
 
 .fox {
@@ -339,4 +337,100 @@ box-sizing: border-box;
 	font-family: 'Gloria Hallelujah', cursive;
 	color: #ffffff;
 	border-radius: 5px;
+}
+
+
+/* FOOTER */
+
+footer {
+    float: left;
+    width: 100%;
+    height: 105px;
+    background-color: rgba(79, 79, 82, 0.5);
+}
+
+#footer div {
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 17px
+}
+
+.envelope-icon {
+    width: 40%;
+}
+
+.social-media {
+    width: 25%;
+}
+
+/* FORM */ 
+
+#footer i {
+    font-size: 160%;
+    color: #3a3a3a;
+    margin: 1.5% 2%;
+    padding: 1% 0.5%;
+}
+
+.social-media a {
+    margin-left: 2%;
+}
+
+#form h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-family:Lato,sans-serif;
+    font-size: 30px;
+}
+
+#form p {
+    text-align: center;
+    margin-bottom: 5%;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#form {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+.form-control {
+    width: 30%;
+    display: block;
+    padding: 10px;
+    border: 1px solid #616263;
+    border-radius: 7px;
+    margin: 0 auto;
+    line-height: 1.5em;
+    margin-top: 10px;
+    font-size: 1rem;
+    }
+
+
+ input[type=submit] {
+    width: 20%;
+    background-color:  rgba(79, 79, 82);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer; 
+    }
+
+input:focus {
+    outline: none !important;
+    border-color: #537ca8;
+    box-shadow: 3px 0 15px #719ECE;
+}
+
+textarea:focus{
+    outline: none !important;
+    border-color: #537ca8;
+    box-shadow: 3px 0 15px #719ECE;
 }

@@ -8,7 +8,7 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
 let secondCard;
-matchCounter = 0;
+let matchCounter = 0;
 
 const animals = [
     'snail',

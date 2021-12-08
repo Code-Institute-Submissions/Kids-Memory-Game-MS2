@@ -72,18 +72,22 @@ body {
   
   #newpost.visible {
     display: block;
+    position: absolute;
   }
 
   .newpost-text {
-    width: 50%;
+    width: 40%;
     display: inline-block;
     font-size: 1.2rem;
     padding: 20px;
     text-align: center;
-    background-color: rgba(215 244 238 / 90%);
+    background-color:  #60b8eb;
     border-radius: 10px;
     border-radius: 10;
     padding: 20;
+    position: fixed;
+    top: 25%;
+    left: 30%;
 
   }
 
@@ -116,9 +120,27 @@ body {
      font-size: 1.2rem;
  }
 
+
+/* TEST MEMORY TEXT */
+
+.test-memory-text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Indie Flower, san-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #47525c;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+
 /* Game board styles */
+
+
 .row{
     text-align: center;
+    
 }
 
 .card{
@@ -129,6 +151,9 @@ body {
     border: 1px solid blue;
     margin: 5px;
     transform: scale(1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -146,69 +171,49 @@ box-sizing: border-box;
 
 .snail {
     background-image: url(../images/snail.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
    
 }
 
 .fox {
-    background-image: url(../images/fox.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-image: url(../images/fox.png); }
+    
 
 .lionnew {
     background-image: url(../images/lionnew.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .bee {
     background-image: url(../images/bee.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 
 .bird {
     background-image: url(../images/bird.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 
 .dinosaur{
     background-image: url(../images/dinosaur.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .dog{
     background-image: url(../images/dog.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
 }
 
 .sheep {
     background-image: url(../images/sheep.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
    
 }
 
 .color-hidden{
     background-image: url(../images/bear.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 
@@ -325,7 +330,7 @@ box-sizing: border-box;
 
 
 #play-again {
-	background-color: #141214;
+	background-color:  #4965cb;
 	padding: 0.7rem 1rem;
 	font-size: 1.1rem;
 	display: block;

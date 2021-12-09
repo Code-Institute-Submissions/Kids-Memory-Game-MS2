@@ -17,7 +17,7 @@ body {
 .text-header {
    margin: auto;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: Indie Flower, san-serif;
    padding-top: 1%;
    color: #47525c;
@@ -52,7 +52,7 @@ body {
 
 
 .style {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: Indie Flower, san-serif;
     margin:1%;
     font-weight: bold;
@@ -181,16 +181,29 @@ body {
 
 /* TEST MEMORY TEXT */
 
-.test-memory-text{
+
+.test-memory {
+    float: left;
+    width: 100%;
+    margin-bottom: 2%;
     text-align: center;
-    font-size: 1.5rem;
     font-family: Indie Flower, san-serif;
     font-weight: bold;
     letter-spacing: 4px;
-    color: #47525c;
+    color: deeppink;
     margin-top: 40px;
     text-transform: uppercase;
 }
+
+.test-memory h2 {
+    font-size: 4rem;
+}
+
+.test-memory p {
+    font-size: 1.7rem;
+    font-style: italic;
+}
+
 
 
 /* Game board styles */
@@ -278,7 +291,7 @@ box-sizing: border-box;
 /* Reset button and number of moves*/
 
 
- p {
+ #moves-section p {
     text-align: right;
     font-size: 1.3rem;
     
@@ -315,11 +328,6 @@ box-sizing: border-box;
 
 
 
-.test-memory {
-    float: left;
-    width: 100%;
-    margin-bottom: 5%;
-}
 
 /* Congradulation */
 

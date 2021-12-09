@@ -252,16 +252,6 @@ function startGame() {
 }
 
 
-// HOW TO PLAY BTN
-
-/*var div = document.getElementById('newpost');
-
-document.getElementById('btnOne').addEventListener('click', showhide);
-
-function showhide() {
-  div.classList.toggle('visible');
-} */
-
 
 
 // CONGRATULATION 

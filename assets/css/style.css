@@ -10,7 +10,7 @@
 
 body {
    background-color: hsl(103deg 86% 72% / 71%);
-    font-family:'Open Sans', sans-serif;
+    font-family:cursive, sans-serif;
     
 }
 
@@ -146,9 +146,6 @@ body {
     
 }
 
-
-
-
 #did-you-know{
     width: 100%;
     text-align: center;
@@ -185,20 +182,23 @@ body {
     margin-bottom: 2%;
     text-align: center;
     font-weight: bold;
-    font-family: 'Indie Flower', sans-serif;
     letter-spacing: 4px;
     color: deeppink;
     margin-top: 40px;
     text-transform: uppercase;
 }
 
-.play-text h2 {
+.play-text h3 {
     font-size: 4rem;
+    font-family: 'Indie Flower', cursive;
 }
 
 .play-text p {
     font-size: 1.7rem;
     font-style: italic;
+    margin: 5px 5px 2% 5px;
+    text-transform: lowercase;
+    
 }
 
 
@@ -423,8 +423,8 @@ box-sizing: border-box;
     width: 100%;
     text-align: center;
     margin-top: 10%;
-    font-family:'Indie Flower',sans-serif;
     font-size: 2.5rem;
+    font-style: italic;
     color: deeppink;
 }
 
@@ -449,6 +449,7 @@ box-sizing: border-box;
     display: block;
     padding: 10px;
     border: 1px solid gray;
+    background-color: lightgoldenrodyellow;;
     border-radius: 7px;
     margin: 0 auto;
     line-height: 1em;
@@ -537,7 +538,7 @@ footer i {
 @media screen and (max-width: 1200px) {
    
     
-    .play-text h2 {
+    .play-text h3 {
         font-size: 3rem;
         
     }
@@ -557,7 +558,10 @@ footer i {
   
 
 @media screen and (max-width: 950px) {
-    
+
+    .img-background {
+        height: 100vh;
+    }
     .text-header{
         font-size: 3rem;
         margin-bottom: 10px;
@@ -616,9 +620,11 @@ footer i {
 
 @media screen and (max-width: 600px){
 
+   
     .text-header {
         font-size: 2.5rem;
-        padding-top: 20px;
+        padding: 20px 7px 7px 7px;
+       
     }
 
     .style {
@@ -629,7 +635,7 @@ footer i {
         font-size: 1.1rem;
     }
 
-    .play-text h2 {
+    .play-text h3 {
         font-size: 2rem;
         
     }
@@ -661,6 +667,7 @@ footer i {
     }
     .form p{
         font-size: 1rem;
+        margin: 5px;
     }
 
     input[type=submit] {
@@ -700,5 +707,72 @@ footer i {
 }
 
 @media screen and (max-width: 450px){
+
+
+ .text-header{
+     font-size: 2rem;
+ }
+
+ .style{
+     font-size: 1.4rem ;
+ }
+
+ #wrapper {
+     font-size: 0.6rem;
+     padding: 5px;
+ }
+
+ #did-you-know{
+     margin-top: 50px;
+ }
+
+ #did-you-know li{
+     font-size: 1.1rem ;
+     padding: 10px;
+ }
+
+ .card{
+     width: 75px;
+     height: 75px;
+ }
     
+.moves-timer-wrapper{
+    font-size: 1.5rem;
+}
+
+.timer {
+    padding-left: 50px;
+}
+
+.reset{
+    font-size: 1.4rem;
+}
+.form h3{
+    width: auto;
+    margin: 5px;
+}
+
+input[type=submit] {
+    font-size: 1.4rem;
+}
+
+footer i {
+    margin: 5% 2%;;
+}
+
+.page-title{
+    margin: 10px 20px;
+}
+
+.instructions-list li {
+    margin-bottom: 5px;
+
+}
+
+}
+
+@media screen and (max-width: 400px){
+    .img-background{
+        height: 115vh;
+    }
 }

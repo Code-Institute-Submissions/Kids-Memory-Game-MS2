@@ -31,7 +31,7 @@ body {
     background-image: url(../images/newphoto2.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 120vh;
     text-align: center;
 }
 
@@ -205,12 +205,15 @@ body {
 
 /* Game board styles */
 
-
-
-.row{
-    text-align: center;
-    
+#memory-game{
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
 }
+
+
 
 .card{
     display: inline-block;
@@ -291,6 +294,8 @@ box-sizing: border-box;
 
 
 .moves-timer-wrapper {
+    float: left;
+    width: 100%;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 15px;
@@ -412,45 +417,6 @@ box-sizing: border-box;
 }
 
 
-/* FOOTER */
-
-footer {
-    float: left;
-    width: 100%;
-    height: 105px;
-    text-align: center;
-    background-color: #a9bedb;
-    color:#47525c; 
-    font-family: 'Indie Floer', sans-serif;
-    margin-top: 30px;
-}
-
-footer div {
-    padding-top: 10px;
-    display: inline;
-    position: relative;
-}
-
-
-footer i {
-    font-size: 180%;
-    color: #47525c;
-    margin: 1.5% 2%;
-    padding: 1% 0.5%;
-}
-
-.social-media a {
-    margin-left: 2%;
-}
-
-.fa-envelope {
-    margin-right: 0;
-}
-
-.envelope-icon{
-    padding-right: 100px;
-}
-
 
  /* FORM */
 .form h3 {
@@ -514,15 +480,81 @@ textarea:focus{
     box-shadow: 3px 0 15px #719ECE;
 }
 
+/* FOOTER */
+
+footer {
+    float: left;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background-color: #a9bedb;
+    color:#47525c; 
+    font-family: 'Indie Floer', sans-serif;
+    margin-top: 30px;
+}
+
+footer div {
+    padding-top: 10px;
+    display: inline;
+    position: relative;
+}
+
+
+footer i {
+    font-size: 180%;
+    color: #47525c;
+    margin: 1.5% 5%;
+    padding: 1% 0.5%;
+}
+
+.social-media a {
+    margin-left: 2%;
+}
+
+.fa-envelope {
+    margin-right: 0;
+}
+
+.envelope-icon{
+    padding-right: 100px;
+}
+
 
 /* MEDIA QUERIES */
+
 
 @media screen and (min-width: 1000px) {
     #wrapper {
         width: 50%;
     
     }
+
+    
 }
+
+
+
+@media screen and (max-width: 1200px) {
+   
+    
+    .play-text h2 {
+        font-size: 3rem;
+        
+    }
+
+    .play-text p {
+        font-size: 1.2rem;
+    }
+
+    input[type=submit]{
+        width: 35%;
+    }
+
+    footer i {
+        margin-top: 2%;
+    }
+}
+  
 
 @media screen and (max-width: 950px) {
     
@@ -543,20 +575,82 @@ textarea:focus{
         padding: 2px 10px;
     }
 
+    .reset {
+    width: 35%;
+    }
+
+    .form-control {
+    width: 80%;
+    }
+    footer i {
+    margin-top: 3%;
+    }
+
+    .instructions-wrapper{
+        padding: 10px 40px;
+    }
+
+    .instructions-list li {
+        padding: 0px 15px;
+
+    }
+}
+
+@media screen and (max-width: 750px) {
+     
+    .card {
+        width: 130px;
+        height: 130px;
+    }
+
+    .moves-timer-wrapper{
+        font-size: 2rem;
+    }
+
+    .timer{
+        padding-left: 220px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .text-header {
+        font-size: 2.5rem;
+        padding-top: 20px;
+    }
+
+    .style {
+        font-size: 1.7rem;
+    }
+
+    #did-you-know li{
+        font-size: 1.1rem;
+    }
 
     .play-text h2 {
-        font-size: 3rem;
+        font-size: 2rem;
+        
     }
 
     .play-text p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
-.reset {
-    width: 35%;
+    .card{
+        margin: 3px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .moves-timer-wrapper{
+        font-size: 1.7rem;
+    }
+
+    .timer{
+        padding-left: 150px;
+    }
+
+    
 }
 
-    input[type=submit]{
-        width: 35%;
-    }
-}

@@ -24,6 +24,7 @@ body {
    color: #47525c;
     font-weight: bold;
     letter-spacing: 5px;
+    margin-bottom: 30px;
 }
 
 .img-background {
@@ -151,7 +152,7 @@ body {
 #did-you-know{
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
    
 }
 
@@ -516,9 +517,46 @@ textarea:focus{
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     #wrapper {
         width: 50%;
     
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    .text-header{
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    .style {
+        font-size: 2rem;
+    }
+
+    #play-button{
+        padding: 2px 10px;
+    }
+
+    #modalBtn {
+        padding: 2px 10px;
+    }
+
+
+    .play-text h2 {
+        font-size: 3rem;
+    }
+
+    .play-text p {
+        font-size: 1.2rem;
+    }
+
+.reset {
+    width: 35%;
+}
+
+    input[type=submit]{
+        width: 35%;
     }
 }

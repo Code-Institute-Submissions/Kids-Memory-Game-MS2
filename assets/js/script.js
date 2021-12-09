@@ -20,7 +20,7 @@ closeBtn.addEventListener('click', closeInstructions); // listen for close instr
 
 function didYouKnow(){
 
-    var x = window.matchMedia("(max-width: 900px)") // MEDIA QUERY
+    var x = window.matchMedia("(max-width: 1000px)") // MEDIA QUERY
     var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
 

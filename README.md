@@ -166,18 +166,7 @@ Color palette from Coolors
 - [Coolors](https://coolors.co/9df57a-3c444c-fee73b-ff4f98-2daaf3-a9bedb) - to make color palette
 
 # Testing
-
-
-# Validating 
-
-
-
-## User Story Testing
-
-### **Testing Users Stories form (UX) Section**
-
 ...
-
  
 
 ## Bugs and Issues
@@ -185,15 +174,6 @@ Color palette from Coolors
 ...
 
 
-### **HTML Validator** 
-
-...
-
-
-
-### **CSS Validator** 
-
-...
 
 
 

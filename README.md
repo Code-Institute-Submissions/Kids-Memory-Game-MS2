@@ -129,7 +129,9 @@ Color palette from Coolors
 # Technologies Used
 
 ## Languages 
-
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JS](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Frameworks, Libraries & Programs Used
 

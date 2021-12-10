@@ -100,7 +100,7 @@ When all the pairs are found the congratulations message pop up with final time 
 ## Chosens Color 
 
 
-Color palette from Co0lors
+Color palette from Coolors
 <p align="center">
 <img src="assets/images/wireframes/colors.png" width="700" height="250">
 </p>
@@ -111,7 +111,11 @@ Color palette from Co0lors
 #2daaf3 - color for How to play text on the button, Reset text and background of Submit.  The color goes well with yellow and pink and gives the page a cheerful look. 
 - deeppink - color is used for breaf introduction before the board game and title of the contact form. 
 - #a9bedb - footer background color. I liked the color because it is neither too dark nor too bright. It fits nicely with the whole page and with a submit button.
+
+
 ## Font 
+- Cursive, sans-serif - main font
+- Indie Flower - for headings and buttons
 
 ...
 

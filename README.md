@@ -41,17 +41,26 @@ As a player::
 # Structure
 
 - **Title**  
-    
-- **How to play**  
-    ...
+    - located at the top of the page
 
-- **Play**  
-    ...
+- **Play Button**  
+    - located below the title next to the "How to Play" button, takes the user to the game section
+
+- **How to play Button**  
+    - located below the title, next to the "Play" button, with a click a window opens that allows the user to read the rules of the game
 
 -  **Did you know**  
-    ...
+    - located bellow buttons, contains fun facts about how memory game affects our memory and brain development 
 
+-  **Play Section**  
+    - contains the title and a brief introduction, after wich the game begins. In the play section there is a memory game board which contains 16 cards the user must find a par for each card to win the game. 
+    Moves and time - located below game board, shows the user how many moves have been used in how much time
 
+-  **Contact Form**  
+    - allows the user to contact the game provider if he has questions or suggestions for the game
+
+ -  **Footer**     
+    - contains mail address and social link
 
 # Wireframes
 

@@ -329,6 +329,7 @@ box-sizing: border-box;
     color: #2daaf3;
     border-radius: 10px;
     width: 20%;
+    cursor: pointer;
 }
 
 

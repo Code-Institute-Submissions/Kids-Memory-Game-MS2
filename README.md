@@ -7,7 +7,7 @@ representative image
 # UX
 The inspiration for this game was my daughter. I wanted to make a game that would have a good impact on a child's brain. As a parent I know how hard it is to keep children away from the screen, but sometimes this is inevitable. So I wanted to make a game that would be useful and fun at the same time.
 I did a little research on memory games and found out that playing memory games can improve other brain functions, such as attention, concentration, and focus. Memory games give space to critical thinking and that helps children nurture their attention to detail.  
-This project is intended for children from 2 -6 years.
+This project is intended for children from 3 - 7 years.
 
 ## Users Stories 
 As a parent:
@@ -15,7 +15,7 @@ As a parent:
 - I want my child to easily understand the purpose of the game
 - I want my child to have fun while developing memory
 
-As a playes:
+As a player::
 - I want to have fun
 - I want to see nice and colorful game
 - I want to see nice pictures that will keep my atention 
@@ -27,12 +27,15 @@ As a playes:
 ## Features
 
 - An simple and colorful page structure so that the user can easily find the game
-- "Did you know" section - provides information about the importance of memory game and their impact on children’s memory
+- "Play" button - takes the user to the play section
 - "How to play?" button - provides information about the game rules
-- "Play game" button - takes the user to the memory game board
-- Memory board - contains 12 cards, the user must find a par for each card
-- Number of moves and score - shows the user how many moves have been used for how long
+- "Did you know" section - provides fun facts about the importance of memory game and their impact on children’s memory
+- Memory board - contains 16 cards, the user must find a par for each card
+- Number of moves and time - shows the user how many moves he has taken in how much time
 - "Reset" button - user can reset the game and play again
+- "Congratulations Window" - after the user finds all 16 cards, a congratulations window appears showing the moves and time the user has achived
+- Contact form - user can contact the game provider if he has questions or suggestions for the game
+- Footer - contains mail address and social link
 
 #
 # Structure

@@ -118,10 +118,6 @@ function flipCard(){
        hasFlippedCard = false;
        secondCard = this;
 
-
-       
-
-
    }
    moveCounter();
    matchingCards();
@@ -228,6 +224,7 @@ function startTimer(){
 
 function startGame() {
 
+     
     randomNum = [...document.querySelectorAll('.random')];
 
     for (var i = 0; i < cards.length; i++) {
@@ -235,6 +232,7 @@ function startGame() {
 
         cards[i].removeEventListener('click', flipCard);
         cards[i].addEventListener('click', flipCard);
+       
     };
     firstCard = null;
 
@@ -251,6 +249,7 @@ function startGame() {
     clearInterval(interval);
     
     shuffleAnimals();
+  
 }
 
 
@@ -271,10 +270,13 @@ function closeModal(){
     closeicon.addEventListener("click", function(e){
         modal.classList.remove("show");
         startGame();
+        matchCounter = 0;
     });
 }
+
 //for player to play Again 
 function playAgain(){
     modal.classList.remove("show");
     startGame();
+    matchCounter = 0;
 }

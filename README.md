@@ -54,20 +54,20 @@ As a playes:
 
 ## Desktop View
 <p align="center">
-<img src="assets/images/wireframes/memory-game-desktop.png" width="600" height="700">
+<img src="assets/images/wireframes/desktop-view.png" width="600" height="1000">
 </p>
 
 
 # Tablet view
 <p align="center">
-<img src="assets/images/wireframes/memory-game-tablet.png" width="500" height="900">
+<img src="assets/images/wireframes/tablet-view.png" width="500" height="1100">
 </p>
 
 
 
 # Mobile View
 <p align="center">
-<img src="assets/images/wireframes/memory-game-phone.png" width="300" height="1000">
+<img src="assets/images/wireframes/mobile-view.png" width="300" height="1200">
 </p>
 
 

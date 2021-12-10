@@ -99,9 +99,13 @@ When all the pairs are found the congratulations message pop up with final time 
 
 ## Chosens Color 
 
-- 
- 
-
+- #3c444c - the main color. I choose this color because it matches nicely with the rest of the page. The color is neither too dark nor too bright.
+- #fee73bde - color for play, how to play and reset button. The color is cheerful. That’s why I liked it because it elevates the look of the page.
+- #ff4f98 - color for Play btn. Fits nicely with yellow background. 
+- #fee73bde - color for Play, How to Play and Reset button. Looks nice and cheerful.
+#2daaf3 - color for How to play text on the button, Reset text and background of Submit.  The color goes well with yellow and pink and gives the page a cheerful look. 
+- deeppink - color is used for breaf introduction before the board game and title of the contact form. 
+- #a9bedb - footer background color. I liked the color because it is neither too dark nor too bright. It fits nicely with the whole page and with a submit button.
 ## Font 
 
 ...

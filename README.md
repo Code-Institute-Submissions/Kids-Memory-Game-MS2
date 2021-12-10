@@ -157,7 +157,13 @@ Color palette from Coolors
 
 - [Pixabay](https://pixabay.com/) - was used for all the images in the memory game
 
+- [Beautify Tools](https://beautifytools.com/javascript-validator.php) - was used to validate JS
 
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - was used to validate HTML
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - was used to validate CSS
+
+- [Coolors](https://coolors.co/9df57a-3c444c-fee73b-ff4f98-2daaf3-a9bedb) - to make color palette
 
 # Testing
 

@@ -11,6 +11,7 @@
 body {
    background-color: hsl(103deg 86% 72% / 71%);
     font-family:cursive, sans-serif;
+    color: #3c444c;;
     
 }
 
@@ -21,7 +22,6 @@ body {
     font-size: 4rem;
     font-family: Indie Flower, san-serif;
    padding-top: 1%;
-   color: #47525c;
     font-weight: bold;
     letter-spacing: 5px;
     margin-bottom: 30px;
@@ -31,7 +31,7 @@ body {
     background-image: url(../images/newphoto2.jpg);
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: 900px;
     text-align: center;
 }
 
@@ -137,8 +137,6 @@ body {
 #myBtn {
     cursor: pointer;
     color: blue;
-    
-
 }
 
 #more {
@@ -151,6 +149,7 @@ body {
     text-align: center;
     margin-top: 70px;
    
+   
 }
 
 #wrapper{
@@ -159,8 +158,14 @@ body {
  background-color: rgba(215 244 238 / 90%);
  border-radius: 10px;
  padding: 20px;
+ margin: 15px;
+
 }
 
+#wrapper-two{
+    width: 50%;
+    display: inline-block;
+}
 
 
 #did-you-know ul{
@@ -185,7 +190,6 @@ body {
     letter-spacing: 4px;
     color: deeppink;
     margin-top: 40px;
-    text-transform: uppercase;
 }
 
 .play-text h3 {
@@ -197,7 +201,6 @@ body {
     font-size: 1.7rem;
     font-style: italic;
     margin: 5px 5px 2% 5px;
-    text-transform: lowercase;
     
 }
 
@@ -489,8 +492,7 @@ footer {
     height: 90px;
     text-align: center;
     background-color: #a9bedb;
-    color:#47525c; 
-    font-family: 'Indie Floer', sans-serif;
+    color:#3c444c;
     margin-top: 30px;
 }
 
@@ -504,7 +506,7 @@ footer div {
 footer i {
     font-size: 180%;
     color: #47525c;
-    margin: 1.5% 5%;
+    margin: 0.5% 5%;
     padding: 1% 0.5%;
 }
 
@@ -524,19 +526,13 @@ footer i {
 /* MEDIA QUERIES */
 
 
-@media screen and (min-width: 1000px) {
-    #wrapper {
-        width: 50%;
-    
-    }
 
-    
-}
 
 
 
 @media screen and (max-width: 1200px) {
    
+    
     
     .play-text h3 {
         font-size: 3rem;
@@ -545,6 +541,10 @@ footer i {
 
     .play-text p {
         font-size: 1.2rem;
+    }
+
+    #wrapper-two {
+        width: 80%;
     }
 
     input[type=submit]{
@@ -559,9 +559,7 @@ footer i {
 
 @media screen and (max-width: 950px) {
 
-    .img-background {
-        height: 100vh;
-    }
+    
     .text-header{
         font-size: 3rem;
         margin-bottom: 10px;
@@ -631,12 +629,19 @@ footer i {
         font-size: 1.7rem;
     }
 
+    #wrapper-two{
+        width: 100%;
+    }
+
+    #did-you-know{
+        margin-top: 30px;
+    }
     #did-you-know li{
         font-size: 1.1rem;
     }
 
     .play-text h3 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         
     }
 
@@ -660,10 +665,11 @@ footer i {
 
     .reset{
         font-size: 1.5rem;
+        
     }
 
     .form h3 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .form p{
         font-size: 1rem;
@@ -680,7 +686,7 @@ footer i {
     }
     footer i {
         font-size: 150%;
-        margin: 3% 3%;
+        margin: 4% 3%;
     }
 
     .instructions-list li {
@@ -727,13 +733,13 @@ footer i {
  }
 
  #did-you-know li{
-     font-size: 1.1rem ;
+     font-size: 1rem ;
      padding: 10px;
  }
 
  .card{
-     width: 75px;
-     height: 75px;
+     width: 80px;
+     height: 80px;
  }
     
 .moves-timer-wrapper{
@@ -749,30 +755,65 @@ footer i {
 }
 .form h3{
     width: auto;
-    margin: 5px;
+    margin: 15px 5px 5px 5px;
+    font-size: 1.5rem;
 }
 
 input[type=submit] {
     font-size: 1.4rem;
 }
 
+footer {
+    height: 80px;
+}
+
 footer i {
-    margin: 5% 2%;;
+    margin: 5% 2%;
+    font-size: 130%;
 }
 
 .page-title{
-    margin: 10px 20px;
+    margin: 5px 20px;
 }
 
 .instructions-list li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
 }
 
 }
 
-@media screen and (max-width: 400px){
-    .img-background{
-        height: 115vh;
+@media screen and (max-width: 350px) {
+    .card{
+        width: 70px;
+        height: 70px;
+      
+    }
+
+    #wrapper {
+        margin: 5px;
+    }
+
+    .instructions-list li {
+        margin-bottom: 5px;
+    }
+    .timer{
+        padding-left: 15px;
+    }
+   
+    input[type=submit] {
+       width: 60%;
+    }
+    
+    footer i {
+        margin: 2% 2%;
+    }
+  
+}
+
+@media screen and (max-width: 300px) {
+    .card {
+        width: 60px;
+        height: 60px;
     }
 }

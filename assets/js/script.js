@@ -8,7 +8,7 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
 let secondCard;
-let matchCounter = 0;
+
 const modalBtn = document.getElementById("modalBtn");
 const closeBtn = document.getElementById("closeBtn");
 
@@ -27,9 +27,8 @@ function didYouKnow(){
   if (more.style.display === "none") {
     btnText.innerHTML = "Show Less"; 
     moreText.style.display = "inline-block";
-    know.style.width = "50%";
     if (x.matches) { // If media query matches
-        know.style.width = "100%";
+        know.style.width = "90%";
       }
       
   } else {
@@ -119,19 +118,22 @@ function flipCard(){
        hasFlippedCard = false;
        secondCard = this;
 
-moveCounter();
-matchingCards();
+
+       
+
 
    }
-
+   moveCounter();
+   matchingCards();
 }
 
 
+let matchCounter = 0;
 
 
 //MATCHING CARDS
 function matchingCards(){
-
+   
     if (firstCard.dataset.img === secondCard.dataset.img){
        
         matchCounter+=1;
@@ -160,7 +162,7 @@ function matchingCards(){
 function disableCards(){
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
-
+resetBoard();
     }
 
 // UNFLIP CARDS
@@ -170,7 +172,7 @@ lockBoard = true;
     setTimeout(() => {
         firstCard.classList.add('color-hidden');
         secondCard.classList.add('color-hidden');
-        lockBoard = false;
+        resetBoard();
     }, 1500); 
 }
 

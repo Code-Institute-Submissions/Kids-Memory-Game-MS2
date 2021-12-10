@@ -1,8 +1,11 @@
 # Kids Memory Game 
 
-representative image
 
+You can view the deployed website [here](https://irissmok.github.io/Kids-Memory-Game-MS2/)
 
+<p align="center">
+<img src="assets/images/wireframes/memory-game-responsive.png" width="600" height="100%">
+</p>
 
 # UX
 The inspiration for this game was my daughter. I wanted to make a game that would have a good impact on a child's brain. As a parent I know how hard it is to keep children away from the screen, but sometimes this is inevitable. So I wanted to make a game that would be useful and fun at the same time.
@@ -15,7 +18,7 @@ As a parent:
 - I want my child to easily understand the purpose of the game
 - I want my child to have fun while developing memory
 
-As a player::
+As a player:
 - I want to have fun
 - I want to see nice and colorful game
 - I want to see nice pictures that will keep my atention 
@@ -115,7 +118,7 @@ Color palette from Coolors
 
 
 ## Font 
-- Cursive, sans-serif - main font
+- Arial, sans-serif - main font
 - Indie Flower - for headings and buttons
 
 
@@ -135,13 +138,13 @@ Color palette from Coolors
 
 ## Frameworks, Libraries & Programs Used
 
-- [Google Fonts](https://fonts.google.com/https://fonts.google.com/) - provide all of the fonts for this website.
+- [Google Fonts](https://fonts.google.com/https://fonts.google.com/) - provide Indie Flower fonts fort he website.
 
 - [Github](https://github.com/IrisSmok) - was used to store the project code.
 
 - [Gitpod](https://www.gitpod.io/) - was used for coding.
 
- [Font Awesome](https://fontawesome.com/) -was used for the Did you know list icons.
+ [Font Awesome](https://fontawesome.com/) -was used for the "Did you know?" list icons.
 
 - [Balsamiq](https://balsamiq.com/) - was used to create site wireframes.
 

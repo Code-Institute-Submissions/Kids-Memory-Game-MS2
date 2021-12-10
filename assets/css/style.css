@@ -20,7 +20,7 @@ body {
    margin: auto;
     text-align: center;
     font-size: 4rem;
-    font-family:'Indie Flower',cursive,san-serif;
+    font-family:'Indie Flower',san-serif;
    padding-top: 1%;
     font-weight: bold;
     letter-spacing: 5px;
@@ -51,7 +51,7 @@ body {
 
 .style {
     font-size: 2rem;
-    font-family:'Indie Flower',cursive,san-serif;
+    font-family:'Indie Flower',san-serif;
     margin:1%;
     font-weight: bold;
     cursor: pointer;
@@ -88,7 +88,7 @@ a {
 
   .page-title {
       color: yellow;
-      font-family:'Indie Flower',cursive,san-serif;
+      font-family:'Indie Flower',san-serif;
       font-weight: bold;
       text-align: center;
       font-size: 50px;
@@ -198,7 +198,7 @@ a {
 
 .play-text h3 {
     font-size: 4rem;
-    font-family:'Indie Flower',cursive,san-serif;
+    font-family:'Indie Flower',san-serif;
 }
 
 .play-text p {
@@ -299,7 +299,7 @@ box-sizing: border-box;
     margin-bottom: 15px;
     margin-top: 25px;
     color: #47525c;
-    font-family:'Indie Flower', cursive, san-serif;
+    font-family:'Indie Flower',san-serif;
     font-weight: bold;
 }
 .moves-counter {
@@ -322,7 +322,7 @@ box-sizing: border-box;
 
 .reset {
     font-size: 2rem;
-    font-family:'Indie Flower',cursive,san-serif;
+    font-family:'Indie Flower',san-serif;
     margin:1%;
     font-weight: bold;
     background-color: #fee73bde;
@@ -369,7 +369,7 @@ box-sizing: border-box;
 .popup h2 {
 	margin-top: 0;
 	color: #333;
-	font-family:cursive,sans-serif;
+	font-family:'Indie Flower',sans-serif;
 }
 
 .popup .close {
@@ -462,7 +462,7 @@ box-sizing: border-box;
     text-decoration: none;
     cursor: pointer; 
     font-size: 2rem;
-    font-family:'Indie Flower',cursive,san-serif;
+    font-family:'Indie Flower',san-serif;
     }
 
 input:focus {

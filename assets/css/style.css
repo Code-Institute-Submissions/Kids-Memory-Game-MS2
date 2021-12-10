@@ -11,7 +11,7 @@
 body {
    background-color: hsl(103deg 86% 72% / 71%);
     font-family:'cursive',sans-serif;
-    color: #3c444c;;
+    color: #3c444c;
     
 }
 
@@ -456,7 +456,7 @@ box-sizing: border-box;
 
  input[type=submit] {
     width: 20%;
-    background-color:rgb(45 170 243);
+    background-color:#2daaf3;
     color: white;
     border-radius: 10px;
     text-decoration: none;

@@ -99,7 +99,7 @@ When all the pairs are found the congratulations message pop up with final time 
 
 ## Chosens Color 
 
-...
+- 
  
 
 ## Font 

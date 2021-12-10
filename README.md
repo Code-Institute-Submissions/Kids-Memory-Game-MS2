@@ -141,11 +141,23 @@ Color palette from Coolors
 
 - [Gitpod](https://www.gitpod.io/) - was used for coding.
 
+ [Font Awesome](https://fontawesome.com/) -was used for the Did you know list icons.
+
 - [Balsamiq](https://balsamiq.com/) - was used to create site wireframes.
 
 - [Am I Responsive](http://ami.responsivedesign.is/) - to check if the site is responsive on different screen sizes.
 
 - [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html) - was used to correct indentation issues and get rid of too much whitespace
+
+- [Tiny PNG](https://tinypng.com/) - this site is used to help me compress the images
+
+- [Birme](https://www.birme.net/?target_width=150&target_height=150) - to help me resize the photos for memory board
+
+- [Freepik](https://www.freepik.com/home) - was used for background image
+
+- [Pixabay](https://pixabay.com/) - was used for all the images in the memory game
+
+
 
 # Testing
 

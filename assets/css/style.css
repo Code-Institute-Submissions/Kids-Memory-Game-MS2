@@ -44,6 +44,7 @@ body {
     color: #ff4f98;
     border-radius: 10px;
     padding: 5px 10px;
+    border: 2px solid #212121;;
    
 }
 
@@ -65,8 +66,12 @@ body {
     color: #2daaf3;
     border-radius: 10px;
     padding: 5px 10px; 
+   
 }
     
+a {
+    text-decoration: none;
+}
 
 .instructions {
     display: none;
@@ -119,9 +124,8 @@ body {
 
   #closeBtn {
       display: inline-block;
-      text-align: none;
       color: #fff;
-      border: 1px solid blue;
+      border: 1px solid;
       padding: 12px 34px;
       font-size: 14px;
       background: blue;
@@ -295,7 +299,7 @@ box-sizing: border-box;
     margin-bottom: 15px;
     margin-top: 25px;
     color: #47525c;
-    font-family: Indie Flower, san-serif;
+    font-family:'Indie Flower', cursive, san-serif;
     font-weight: bold;
 }
 .moves-counter {
@@ -381,6 +385,7 @@ box-sizing: border-box;
 .popup .close:hover {
 	color: #E5F720;
 }
+
 
 .popup .content-1,
 .content-2 {

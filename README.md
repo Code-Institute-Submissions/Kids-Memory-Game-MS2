@@ -88,12 +88,13 @@ As a player::
 # Surface
 
 # Design 
-The design of this site is made in bright and cheerful colors, because they make the page cheerful and positive and the main goal of this page is fun and of course memory training. The site is intended for children from 2 to 6 years, so it's important that the site is colorful and easy to navigate and understand.
+The design of this site is made in bright and cheerful colors, because they make the page cheerful and positive and the main goal of this page is fun and of course memory training. The site is intended for children from 3 to 7 years, so it's important that the site is colorful and easy to navigate and understand.
 
 It's one page site with two parts.
-First part is consist of the title, the short section "Did you know?", a button that opens the game rules and a "Play Game" button that takes the user to the memory game section.
-Second part is consist of the memory game section where the Memory Game board is located under which the user can see their time and number of moves they used along the way. The user can push the reset button to reset the game and start again. 
-When all the pairs are found the aler message will show up. 
+First part is consist of the title, the short section "Did you know?", a button that opens the game rules and a "Play" button that takes the user to the memory game section.
+Second part is consist of the memory game section, contact form and a footer. The memory game section contains the Memory Game board  under which the moves and time are located, the user can see their time and number of moves they used along the way. The user can push the reset button to reset the game and start again. 
+When all the pairs are found the congratulations message pop up with final time and moves.
+
 
 
 ## Chosens Color 

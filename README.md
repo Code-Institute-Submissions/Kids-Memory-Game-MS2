@@ -102,27 +102,29 @@ When all the pairs are found the congratulations message pop up with final time 
 
 Color palette from Coolors
 <p align="center">
-<img src="assets/images/wireframes/colors.png" width="700" height="250">
+<img src="assets/images/wireframes/colors-palette.png" width="900" height="250">
 </p>
 
-- #3c444c - the main color. I choose this color because it matches nicely with the rest of the page. The color is neither too dark nor too bright.
-- #fee73bde - color for play, how to play and reset button. The color is cheerful. That’s why I liked it because it elevates the look of the page.
-- #ff4f98 - color for Play btn. Fits nicely with yellow background. 
-#2daaf3 - color for How to play text on the button, Reset text and background of Submit.  The color goes well with yellow and pink and gives the page a cheerful look. 
-- deeppink - color is used for breaf introduction before the board game and title of the contact form. 
-- #a9bedb - footer background color. I liked the color because it is neither too dark nor too bright. It fits nicely with the whole page and with a submit button.
+- #9df57ab5 - body background color. It fits nicely with the background image. The site looks colorful and fun.
+- **#3c444c** - the main color. I choose this color because it matches nicely with the rest of the page. The color is neither too dark nor too bright.
+- **#fee73bde** - color for play, how to play and reset button. The color is cheerful. That’s why I liked it because it elevates the look of the page.
+- **#ff4f98**- color for Play btn. Fits nicely with yellow background. 
+- **#2daaf3** - color for How to play text on the button, Reset text and background of Submit.  The color goes well with yellow and pink and gives the page a cheerful look. 
+- **deeppink** - color is used for breaf introduction before the board game and title of the contact form. 
+- **#a9bedb** - footer background color. I liked the color because it is neither too dark nor too bright. It fits nicely with the whole page and with a submit button.
 
 
 ## Font 
 - Cursive, sans-serif - main font
 - Indie Flower - for headings and buttons
 
-...
-
 
 ## Media
 
-...
+**Bacground Image** - covering the first part of the page. It is designed in cheerful colors to make the page cheerful and fun. The picture contains animals as well as the memory game itself. I choose this image because it's childeren firendly and everyone loves animals.
+
+**Memory Game** - the images contain animals, each with a background of a different color which makes game fun and colorful. 
+
 
 # Technologies Used
 

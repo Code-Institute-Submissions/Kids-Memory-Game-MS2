@@ -1,4 +1,4 @@
-
+/*jshint esversion: 6 */ 
 let card = document.getElementsByClassName("card");
 let cards = [...card];
 let randomNum = null;

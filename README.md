@@ -174,17 +174,22 @@ Color palette from Coolors
 - Chrome Developer Tools are used to test the responsiveness on: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6,7,8, iPhone 6,7,8 Plus, iPad, iPad Pro, Galaxy Fold
  
  - Ensure that all user stories are achived:
-    - For parents: 
-    1. When entering the page, the parent can quickly and easly see the bright and nice color, images and content of the page. 
-    2. Clicking on the "How to play" button, the child can read game instructions that are clear and short.
-    3. The game is fun and challenging for kids. Cherful images make it fun, while moves counter and timer make it challenging.
 
-    - For user:
-    1. The game is fun for kids. Images of animals, cards that are shuffled each time a new game starts, moves counter and timer makes the game fun and challenging.
-    2. Memory game is designed in bright and colorful colors. Animals images cards with colorful background make the game nice.
-    3. The background image and cards images are bright and cherful, easily captures the user's attention
-    4. 
-A move counter and timer are placed under the memory board so that the user can see the moves and time he made during the game. When users find all 16 matches, a congratulatory pop-up window with final time and moves appears.
+**For parents:** 
+   - 1. When entering the page, the parent can quickly and easly see the bright and nice color, images and content of the page. 
+- 2. Clicking on the "How to play" button, the child can read game instructions that are clear and short.
+- 3. The game is fun and challenging for kids. Cherful images make it fun, while moves counter and timer make it challenging.
+
+**For user:**
+   - 1. The game is fun for kids. Images of animals, cards that are shuffled each time a new game starts, moves counter and timer makes the game fun and challenging.
+   - 2. Memory game is designed in bright and colorful colors. Animals images cards with colorful background make the game nice.
+   - 3. The background image and cards images are bright and cherful, easily captures the user's attention
+  -  4. A move counter and timer are placed under the memory board so that the user can see the moves and time he made during the game. When users find all 16 matches, a congratulatory pop-up window with final time and moves appears.
+
+- I used Lighthouse tools to test my website
+<p align="center">
+<img src="assets/images/readme/lighthouse-memory-game2.png" width="400" height="100%">
+</p>
 
 ## Bugs and Issues
 

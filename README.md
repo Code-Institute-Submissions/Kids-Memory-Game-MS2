@@ -202,15 +202,50 @@ warning was fixed by adding quotes to the Family names
 
 ## Desktop View 
  
-...
+<p align="center">
+<img src="assets/images/readme/final-product-desktop-view.png" width="700" height="500">
+
+<p align="center">
+<img src="assets/images/readme/final-product-desktop-view2.png" width="700" height="500">
+</p>
+
+<p align="center">
+<img src="assets/images/readme/final-product-desktop-view3.png" width="700" height="500">
+</p>
+
+
 
 ## Tablet View 
  
- ...
+ <p align="center">
+<img src="assets/images/readme/final-product-tablet-view.png" width="500" height="700">
+</p>
+
+<p align="center">
+<img src="assets/images/readme/final-product-tablet-view2.png" width="500" height="600">
+</p>
+
+<p align="center">
+<img src="assets/images/readme/final-product-tablet-view3.png" width="500" height="700">
+</p>
+
 
 ## Mobile View 
  
- ...
+ <p align="center">
+<img src="assets/images/readme/final-product-mobile-view.png" width="500" height="900">
+</p>
+
+ <p align="center">
+<img src="assets/images/readme/final-product-mobile-view2.png" width="500" height="900">
+</p>
+
+
+ <p align="center">
+<img src="assets/images/readme/final-product-mobile-view3.png" width="500" height="900">
+</p>
+
+
 
 # Deployment
 

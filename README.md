@@ -41,6 +41,12 @@ As a player:
 - Contact form - user can contact the game provider if he has questions or suggestions for the game
 - Footer - contains mail address and social link
 
+## Future features
+
+- Add more leves to increase difficulty
+- Add sound when user turns the card
+- Add a form confirmation message
+
 #
 # Structure
 
@@ -274,16 +280,24 @@ warning was fixed by adding quotes to the Family names
 
 # Credits
 
-## Content
+Memory Game:
 
-...
+- [Marina Ferreira](https://github.com/code-sketch/memory-game) - youtube
+- [Web Dev](https://www.youtube.com/watch?v=bbb9dZotsOc) - youtube
+- [Sandra Israel](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) - for congratulations window
 
-...
 
 ## Media
 
-....
+[Freepik](https://www.freepik.com/home) - was used for background image
+
+[Pixabay](https://pixabay.com/) - was used for all the images in the memory game
+
+
 
 ## Acknowledgements
 
-...
+- Thanks to my mentor for helpful feedback
+- Slack community for answering all my questions 
+- Big thanks to my husband Mislav for helping me test the website
+- Friend for support and helpful feedback

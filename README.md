@@ -39,13 +39,13 @@ As a player:
 - "Reset" button - user can reset the game and play again
 - "Congratulations Window" - after the user finds all 16 cards, a congratulations window appears showing the moves and time the user has achieved
 - Contact form - user can contact the game provider if he has questions or suggestions for the game
-- Footer - contains mail address and social link
+- Footer - contains mail address and social links
 
 ## Future features
 
 - Add more levels to increase difficulty
 - Add sound when user turns the card
-- Add a form confirmation message
+- When form is submitted, send a confirmation email
 
 #
 # Structure
@@ -112,10 +112,10 @@ When all the pairs are found the congratulations message pop up with final time 
 
 Color palette from Coolors
 <p align="center">
-<img src="assets/images/wireframes/colors-palette.png" width="900" height="250">
+<img src="assets/images/readme/colors-palette.png" width="900" height="250">
 </p>
 
-- #9df57ab5 - body background color. It fits nicely with the background image. The site looks colorful and fun.
+- **#9df57ab5** - body background color. It fits nicely with the background image. The site looks colorful and fun.
 - **#3c444c** - the main color. I choose this color because it matches nicely with the rest of the page. The color is neither too dark nor too bright.
 - **#fee73bde** - color for play, how to play and reset button. The color is cheerful. That’s why I liked it because it elevates the look of the page.
 - **#ff4f98**- color for Play btn. Fits nicely with yellow background. 
@@ -151,7 +151,7 @@ Color palette from Coolors
 
 - [Gitpod](https://www.gitpod.io/) - was used for coding.
 
- [Font Awesome](https://fontawesome.com/) -was used for the "Did you know?" list icons.
+ - [Font Awesome](https://fontawesome.com/) -was used for the "Did you know?" list icons.
 
 - [Balsamiq](https://balsamiq.com/) - was used to create site wireframes.
 
@@ -182,17 +182,18 @@ Color palette from Coolors
  - Ensure that all user stories are achieved:
 
 **For parents:** 
-   - 1. When entering the page, the parent can quickly and easily see the bright and nice color, images and content of the page. 
-- 2. Clicking on the "How to play" button, the child can read game instructions that are clear and short.
-- 3. The game is fun and challenging for kids. Cheerful images make it fun, while moves counter and timer make it challenging.
+-  When entering the page, the parent can quickly and easily see the bright and nice color, images and content of the page. 
+-  Clicking on the "How to play" button, the child can read game instructions that are clear and short.
+-  The game is fun and challenging for kids. Cheerful images make it fun, while moves counter and timer make it challenging.
 
 **For user:**
-   - 1. The game is fun for kids. Images of animals, cards that are shuffled each time a new game starts, moves counter and timer makes the game fun and challenging.
-   - 2. Memory game is designed in bright and colorful colors. Animals images cards with colorful backgrounds make the game nice.
-   - 3. The background image and cards images are bright and cheerful, easily capturing the user's attention
-  -  4. A move counter and timer are placed under the memory board so that the user can see the moves and time he made during the game. When users find all 16 matches, a congratulatory pop-up window with final time and moves appears.
+   - The game is fun for kids. Images of animals, cards that are shuffled each time a new game starts, moves counter and timer makes the game fun and challenging.
+   - Memory game is designed in bright and colorful colors. Animals images cards with colorful backgrounds make the game nice.
+   - The background image and cards images are bright and cheerful, easily capturing the user's attention
+   - A move counter and timer are placed under the memory board so that the user can see the moves and time he made during the game. When users find all 16 matches, a congratulatory pop-up window with final time and moves appears.
 
-- I used Lighthouse tools to test my website
+
+I used Lighthouse tools to test my website
 <p align="center">
 <img src="assets/images/readme/lighthouse-memory-game2.png" width="400" height="100%">
 </p>

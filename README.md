@@ -188,7 +188,14 @@ A move counter and timer are placed under the memory board so that the user can 
 
 ## Bugs and Issues
 
+ - Play button was located inside the "a" tag, that threw a bug in the HTML Validator. I solved the problem by replacing the button tag with the span tag. 
 
+- Warning : Family names containing whitespace should be quoted. If quoting is omitted, any whitespace characters before and after the name are ignored and any sequence of whitespace characters inside the name is converted to a single space.
+warning was fixed by adding quotes to the Family names
+
+- While playing a memory game I noticed that if you press the reset button you can't turn the cards over again, only after a few seconds. The problem was solved by adding the ResetBoard function to the startGame function which allows the memory board to reset
+
+- I found error some of devices was not responsive, Galaxy Fold. I solved this problem by adding extra media query - max-width 300px
 
 
 # Final Product 

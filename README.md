@@ -157,8 +157,6 @@ Color palette from Coolors
 
 - [Am I Responsive](http://ami.responsivedesign.is/) - to check if the site is responsive on different screen sizes.
 
-- [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html) - was used to correct indentation issues and get rid of too much whitespace
-
 - [Tiny PNG](https://tinypng.com/) - this site is used to help me compress the images
 
 - [Birme](https://www.birme.net/?target_width=150&target_height=150) - to help me resize the photos for memory board
@@ -173,7 +171,10 @@ Color palette from Coolors
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - was used to validate CSS
 
+- [Beautify](https://www.jpkc.com/tools/beautify/) - was used to correct indentation issues and get rid of too much whitespace - HTML, CSS and JS
+
 - [Coolors](https://coolors.co/9df57a-3c444c-fee73b-ff4f98-2daaf3-a9bedb) - to make color palette
+
 
 # Testing
 - Tested on Chrome, Opera, Microsoft Edge, and Firefox desktop version browsers

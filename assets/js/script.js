@@ -1,3 +1,7 @@
+//Credits for helping me with memory-game structure and code: Marina Ferreira - https://github.com/code-sketch/memory-game
+// Web Dev - https://www.youtube.com/watch?v=bbb9dZotsOc
+// Sandra Israel - https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
+
 /*jshint esversion: 6 */
 let card = document.getElementsByClassName("card");
 let cards = [...card];

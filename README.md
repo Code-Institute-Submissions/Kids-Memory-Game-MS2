@@ -286,7 +286,7 @@ Memory Game:
 
 - [Marina Ferreira](https://github.com/code-sketch/memory-game) - youtube
 - [Web Dev](https://www.youtube.com/watch?v=bbb9dZotsOc) - youtube
-- [Sandra Israel](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) - for congratulations window
+- [Sandra Israel](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) - for congratulations window, timer and moves 
 
 
 ## Media

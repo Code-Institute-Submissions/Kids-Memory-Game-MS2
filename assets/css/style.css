@@ -334,13 +334,13 @@ a {
 	width: 85%;
 	position: relative;
 	transition: all 5s ease-in-out;
-	font-family: cursive, sans-serif;
+	font-family: 'Indie Flower', sans-serif;
 }
 
 .popup h2 {
 	margin-top: 0;
 	color: #333;
-	font-family: 'Indie Flower', sans-serif;
+	
 }
 
 .popup .close {
@@ -363,6 +363,11 @@ a {
 	max-height: 30%;
 	overflow: auto;
 	text-align: center;
+	margin: 10px;
+}
+
+.content-2 p {
+	padding: 10px;
 }
 
 .show {
@@ -377,7 +382,6 @@ a {
 	display: block;
 	margin: 0 auto;
 	width: 50%;
-	font-family: cursive, sans-serif;
 	color: #ffffff;
 	border-radius: 5px;
 }
@@ -687,6 +691,10 @@ footer i {
 	.instructions-list li {
 		margin-bottom: 10px;
 	}
+
+	.popup .close {
+		top: 10px;
+	}
 }
 
 
@@ -721,5 +729,18 @@ footer i {
 	.card {
 		width: 60px;
 		height: 60px;
+	}
+
+	.popup h2{
+		font-size: 1.3rem;
+	}
+
+	.popup .close{
+		top: 2px;
+		right: 13px;
+	}
+
+	#play-again{
+		width: 70%;
 	}
 }

@@ -23,6 +23,7 @@ As a player:
 - I want to see nice and colorful game
 - I want to see nice pictures that will keep my atention 
 - I want to see my time and moves
+- I want to contact the developer for questions
 
 #
 # Scope 
@@ -169,15 +170,34 @@ Color palette from Coolors
 - [Coolors](https://coolors.co/9df57a-3c444c-fee73b-ff4f98-2daaf3-a9bedb) - to make color palette
 
 # Testing
-...
+- Tested on Chrome, Opera, Microsoft Edge and Firefox desktop version browsers
+- Chrome Developer Tools are used to test the responsiveness on: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6,7,8, iPhone 6,7,8 Plus, iPad, iPad Pro, Galaxy Fold
  
+ - Ensure that all user stories are achived:
+    - For parents: 
+    1. When entering the page, the parent can quickly and easly see the bright and nice color, images and content of the page. 
+    2. Clicking on the "How to play" button, the child can read game instructions that are clear and short.
+    3. The game is fun and challenging for kids. Cherful pictures make it fun, while moves counter and timer make it challenging.
 
+    - For user:
+    1. The game is fun for kids. Images of animas, cards that are shuffled each time a new game starts, moves counter and timer makes the game fun and challenging.
+    2. Memory game is shown in bright and colorful colors. Cards images of animals with colorful background make the game nice.
+    3.
 ## Bugs and Issues
 
+ When playing a memory game, the child has fun trying to make fewer steps in as short a time as possible. The cards that are shuffled each time a new game starts make the game fun and challenging.
 ...
+As a parent:
+- I want to make sure the content is applicable to children
+- I want my child to easily understand the purpose of the game
+- I want my child to have fun while developing memory
 
-
-
+As a player:
+- I want to have fun
+- I want to see nice and colorful game
+- I want to see nice pictures that will keep my atention 
+- I want to see my time and moves
+- contact 
 
 
 # Final Product 

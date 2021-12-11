@@ -4,7 +4,7 @@
 You can view the deployed website [here](https://irissmok.github.io/Kids-Memory-Game-MS2/)
 
 <p align="center">
-<img src="assets/images/readme/memory-game-responsive.png" width="600" height="100%">
+<img src="assets/images/readme/memory-game-responsive.png" width="800" height="100%">
 </p>
 
 # UX

@@ -257,10 +257,19 @@ warning was fixed by adding quotes to the Family names
 
 ## GitHub Pages
 
+1. Log into GitHub and locate the repository.
+2. At the top locate the settings option 
+3. Scroll towards  the bottom of the page and locate GitHub Pages 
+4. Click on the link "Check it out here!"
+4. Under 'Source' dropdown, click 'Master' from the options.
+5. Click the save button.
+6. The site is now published, it may not be available immediately. 
+7. The site URL is visible on the green bar under the "Github Pages".
 
-## Github Clone 
-
-
+## To run localy 
+ - Log into GitHub and select a respository to download
+ - Select code and Download the ZIP file.
+ - Once the download is complete, you can extract the file and use it in your local enviroment
 
 
 # Credits

@@ -179,7 +179,7 @@ Color palette from Coolors
 - Tested on Chrome, Opera, Microsoft Edge, and Firefox desktop version browsers
 - Chrome Developer Tools are used to test the responsiveness on: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6,7,8, iPhone 6,7,8 Plus, iPad, iPad Pro, Galaxy Fold
  
- - Ensure that all user stories are achieved:
+ Ensure that all user stories are achieved:
 
 **For parents:** 
 -  When entering the page, the parent can quickly and easily see the bright and nice color, images and content of the page. 
@@ -215,7 +215,7 @@ warning was fixed by adding quotes to the Family names
 ## Desktop View 
  
 <p align="center">
-<img src="assets/images/readme/final-product-desktop-view.png" width="700" height="500">
+<img src="assets/images/readme/final-product-desktop-view.png" width="700" height="600">
 
 <p align="center">
 <img src="assets/images/readme/final-product-desktop-view2.png" width="700" height="500">
